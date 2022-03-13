@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "1 2 1",
+      "output": "Sistem stabil",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "2",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "1 -2 1",
+      "output": "Sistem tidak stabil",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "3",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "1 0 1",
+      "output": "Sistem tidak stabil atau stabil marginal",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "4",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "1 0 -1",
+      "output": "Sistem tidak stabil atau stabil marginal",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "5",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "1 1 1",
+      "output": "Sistem stabil",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "6",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "1 1 12 22 39 59 48 38 20",
+      "output": "Sistem tidak stabil atau stabil marginal",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "7",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "1 7 6 42 8 56",
+      "output": "Sistem tidak stabil atau stabil marginal",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "8",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "1 2 3 6 5 3",
+      "output": "Sistem tidak stabil",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "9",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "3 9 6 4 7 8 2 6",
+      "output": "Sistem tidak stabil",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "1 0 1 0",
+      "output": "Sistem tidak stabil atau stabil marginal",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
